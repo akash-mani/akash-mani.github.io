@@ -1,36 +1,203 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-  <base target="_blank">
   <meta charset="UTF-8" />
   <title>Akash Mani</title>
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
-  <!-- remember, jQuery is completely optional -->
-  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
-  <script type="text/javascript" src="js/jquery.particleground.js"></script>
-  <script type="text/javascript" src="js/demo.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<div id="particles">
-  <div id="intro">
-      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Akash Mani</h2>
-      <h3 style="font-family: 'Syncopate', sans-serif; font-weight: 8;">&nbsp</h3>
-      <a href="https://www.linkedin.com/in/akamani/" style="color: white;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
-      &nbsp
-      <a href="https://www.facebook.com/akashkmani/" style="color: white;"><i class="fab fa-facebook" style="font-size: 2em;"></i></a>
-      &nbsp
-      <a href="https://github.com/akash-mani/" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
-      &nbsp
-      <a href="https://medium.com/@akashmani/" style="color: white;"><i class="fab fa-medium" style="font-size: 2em;"></i></a>
-      <h3 style="font-family: 'Syncopate', sans-serif; font-weight: 8;">&nbsp</h3>
-      <a href="resume.pdf" style="color:white">Resume</a>
-  </div>
-</div>
+  <div id="particles-js"></div>
+
+  <header>
+    <nav>
+      <div class="container">
+        <a href="#hero" class="logo">Akash Mani</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="container">
+        <h1>Akash Mani</h1>
+        <h2>Software Engineer</h2>
+        <p>Passionate about building scalable and innovative software solutions.</p>
+        <a href="resume.pdf" class="btn">View Resume</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I am a software engineer with a strong foundation in computer science and a passion for creating elegant and efficient code. I have a Master's degree in Computer Science from Stony Brook University and a Bachelor's degree from the National Institute of Technology, Trichy.</p>
+            <p>My experience spans across various domains, including network programming, distributed systems, and software development for large-scale systems. I am always eager to learn new technologies and take on challenging problems.</p>
+          </div>
+          <div class="about-image">
+            <img src="assets/akash.jpg" alt="Akash Mani" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Cisco Systems</h3>
+              <div class="timeline-role">
+                <h4>Software Engineer II</h4>
+                <p class="timeline-date">Aug 2022 - Aug 2024</p>
+                <ul>
+                  <li>Developed and owned several ACL and CoPP features for the Linux-based Cisco NX-OS data center operating system.</li>
+                  <li>Played a pivotal role in the software bring-up of ACL/CoPP features in a new 400G-bandwidth Cisco Nexus data center platform.</li>
+                  <li>Led cross-functional efforts to enhance code quality and performance of Python-based automation frameworks.</li>
+                </ul>
+              </div>
+              <div class="timeline-role">
+                <h4>Software Engineer I</h4>
+                <p class="timeline-date">Aug 2021 - Aug 2022</p>
+                <ul>
+                  <li>Developed and maintained ACL, CoPP, and model-driven programmability features for Cisco NX-OS.</li>
+                  <li>Diagnosed and resolved critical internal and customer-found issues in Cisco Nexus 9K/7K/3K switches.</li>
+                </ul>
+              </div>
+              <div class="timeline-role">
+                <h4>Software Engineer Intern</h4>
+                <p class="timeline-date">May 2020 - Jun 2020</p>
+                <ul>
+                  <li>Created a Python-based tool to generate stateful traffic streams for over 30 control-plane protocols using the Scapy packet manipulation library.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Applozic, Inc.</h3>
+              <div class="timeline-role">
+                <h4>Developer Evangelist Intern</h4>
+                <p class="timeline-date">Apr 2021 - Jul 2021</p>
+                <ul>
+                  <li>Enhanced product documentation and created code walkthrough blogs and videos for Applozic's chat API products.</li>
+                  <li>Collaborated with product, marketing, and engineering teams to expand Applozic's presence among developers.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Bharat Heavy Electricals Limited</h3>
+              <div class="timeline-role">
+                <h4>Research Assistant</h4>
+                <p class="timeline-date">Dec 2019 - May 2020</p>
+                <ul>
+                  <li>Participated in an academic-industrial research study to establish comprehensive design guidelines for implementing a real-time CAN network in an electric bus.</li>
+                  <li>Presented a prototype simulation of the CAN SAE J1939 network using open-source Busmaster software.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+          <div class="education-item">
+            <h3>State University of New York at Stony Brook</h3>
+            <p>Master of Science, Computer Science</p>
+            <p>2024 - Present</p>
+          </div>
+          <div class="education-item">
+            <h3>National Institute of Technology, Trichy</h3>
+            <p>Bachelor of Technology, Computer Science Engineering</p>
+            <p>2017 - 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Computer Architecture - RV64IM processor</h3>
+              <p>A functional 5-stage RISC-V processor with set-associative cache, supporting load/stores and ECALL instructions with pipeline flush over AXI4 bus communication protocol.</p>
+              <p class="project-tech">SystemVerilog</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Client-Server File Synchronization Tool</h3>
+              <p>A multi-threaded C++ application to handle multiple client connections concurrently and maintain a synchronized client-server directory using Winsock API.</p>
+              <p class="project-tech">C++</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item"><i class="fab fa-cuttlefish"></i> C</div>
+          <div class="skill-item"><i class="fab fa-cuttlefish"></i> C++</div>
+          <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+          <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+          <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+          <div class="skill-item"><i class="fab fa-js-square"></i> JavaScript</div>
+          <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+          <div class="skill-item"><i class="fab fa-linux"></i> Linux</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p>I'm always open to new opportunities and collaborations. Feel free to reach out to me.</p>
+        <a href="mailto:akash.nitt@outlook.com" class="btn">Email Me</a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/akamani/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/akash-mani/"><i class="fab fa-github"></i></a>
+          <a href="https://medium.com/@akashmani/"><i class="fab fa-medium"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Akash Mani. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/particles.min.js"></script>
+  <script src="js/demo.js"></script>
 
 </body>
 </html>
